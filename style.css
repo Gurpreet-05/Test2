@@ -101,7 +101,7 @@
         object-fit: cover;
     }
     .box1 img{
-        object-position: center;
+        object-position: right;
     }
     .box1, .box3, .box5, .box7{
         z-index: -1;
@@ -126,11 +126,11 @@
     }
     .h2{
         font-size: 25px;
-        margin: 20px 0px;
+        margin: 20px 40px;
     }
     p{
         font-size: 10px;
-        margin: 20px 0px;
+        margin: 20px 40px;
     }
     .h{
         border: none;
@@ -146,26 +146,26 @@
     }
     .h3{
         position: absolute;
-        top: 1200px;
-        left: 170px;
+        top: 1400px;
+        left: 140px;
         height: 50px;
         width: 100px;
     }
     .h4{
         position: absolute;
-        top: 1900px;
+        top: 2200px;
         left: 90px;
         height: 70px;
         width: 200px;
     }
     .h5{
         position: absolute;
-        top: 3000px;
-        left: 140px;
+        top: 3250px;
+        left: 120px;
         height: 50px;
         width: 130px;
     }
     .box5 img{
-        object-position: top;
+        object-position: top right;
     }
 }
