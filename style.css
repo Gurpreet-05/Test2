@@ -1,0 +1,183 @@
+@media screen and (min-width:950px){
+    /* Laptop */
+    *{
+        margin: 0;
+        padding: 0; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        background-color:rgb(45, 45, 45);
+        color: white;
+    }
+    img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+    .box1 img{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+    .box3 img{
+        object-position: top;
+    }
+    .box5 img{
+        object-position: top;
+        height: 500px;
+        object-fit: cover;
+    }
+    .box1,.box3,.box5,.box7{
+        z-index: 1;
+        position: sticky;
+        top: 0px;
+    }
+    .box1b,.box3b,.box5b,.box7b{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box3b{
+        position: relative;
+        bottom: 200px;
+    }
+    .box5b{
+        position: relative;
+        bottom: 250px;
+    }
+    .box7b{
+        position: relative;
+        bottom: 200px;
+    }
+    .box2,.box4,.box6,.box8{
+        display: flex;
+        justify-content: center;
+    }
+    .h1{
+        font-weight: 900;
+        font-size: 120px;
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 2;
+        color: white;
+        position: relative;
+        bottom: 530px;
+        left: 150px;
+    }
+    .box2,.box4,.box6,.box8{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 3;
+        justify-content: space-around;
+    }
+    .h2{
+        font-size: 80px;
+        margin: 80px 130px;
+    }
+    p{
+        font-size: 20px;
+        margin: 20px 130px;
+    }
+    .h{
+        border: none;
+        color: black;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        position: absolute;
+        z-index: 2;
+    }
+}
+@media screen and (max-width:450px){
+    *{
+        margin: 0;
+        padding: 0; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box{
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+        background-color:rgb(45, 45, 45);
+        color: white;
+    }
+    img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .box1 img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+    .box1, .box3, .box5, .box7{
+        z-index: -1;
+        position: sticky;
+        top: 0px;
+    }
+    .box1b,.box3b,.box5b,.box7b{
+        width: 100%;
+        height: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box3b{
+        position: relative;
+        bottom: 100px;
+    }
+    .box5b{
+        position: relative;
+        bottom: 150px;
+    }
+    .box7b{
+        position: relative;
+        bottom: 100px;
+    }
+    .h1{
+        font-weight: 900;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 110px;
+        left: 50px;
+        z-index: 1;
+        color: white;
+    }
+    .box2,.box4,.box6,.box8{
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        justify-content: space-around;
+    }
+    .h2{
+        font-size: 25px;
+        margin: 20px 50px;
+    }
+    p{
+        font-size: 10px;
+        margin: 10px 50px;
+    }
+    .h{
+        border: none;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+    .box3 img{
+        object-position: left;
+    }
+    .box5 img{
+        object-position: top;
+        height: 300px;
+    }
+}
