@@ -162,21 +162,21 @@
     }
     .h3{
         position: absolute;
-        top: 170vh;
-        left: 170px;
+        top: 180vh;
+        left: 140px;
         height: 50px;
         width: 100px;
     }
     .h4{
         position: absolute;
-        top: 260vh;
+        top: 300vh;
         left: 90px;
         height: 70px;
         width: 200px;
     }
     .h5{
         position: absolute;
-        top: 362vh;
+        top: 412vh;
         left: 140px;
         height: 50px;
         width: 130px;
