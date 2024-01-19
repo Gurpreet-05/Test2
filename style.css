@@ -14,8 +14,20 @@
     }
     img{
         width: 100%;
+        height: 70vh;
+        object-fit: cover;
+    }
+    .box1 img{
+        width: 100%;
         height: 100vh;
         object-fit: cover;
+    }
+    .box3 img{
+        object-position: top;
+    }
+    .box5 img{
+        object-position: bottom;
+        height: 80vh;
     }
     .box1, .box3, .box5, .box7{
         z-index: -1;
@@ -59,26 +71,28 @@
     }
     .h3{
         position: absolute;
-        top: 1500px;
+        top: 250vh;
         left: 500px;
         height: 70px;
         width: 200px;
     }
     .h4{
         position: absolute;
-        top: 2500px;
-        left: 450px;
+        top: 410vh;
+        left: 400px;
         height: 70px;
         width: 400px;
     }
     .h5{
         position: absolute;
-        top: 3500px;
+        top: 565vh;
         left: 500px;
         height: 70px;
         width: 230px;
     }
     .box5 img{
+        height: 80vh;
+        object-fit: cover;
         object-position: top;
     }
 }
@@ -96,12 +110,14 @@
         color: white;
     }
     img{
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: 70vh;
         object-fit: cover;
     }
     .box1 img{
-        object-position: right;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
     }
     .box1, .box3, .box5, .box7{
         z-index: -1;
@@ -126,11 +142,11 @@
     }
     .h2{
         font-size: 25px;
-        margin: 20px 40px;
+        margin: 20px 50px;
     }
     p{
         font-size: 10px;
-        margin: 20px 40px;
+        margin: 10px 50px;
     }
     .h{
         border: none;
@@ -146,26 +162,26 @@
     }
     .h3{
         position: absolute;
-        top: 1400px;
-        left: 140px;
+        top: 170vh;
+        left: 170px;
         height: 50px;
         width: 100px;
     }
     .h4{
         position: absolute;
-        top: 2200px;
+        top: 260vh;
         left: 90px;
         height: 70px;
         width: 200px;
     }
     .h5{
         position: absolute;
-        top: 3250px;
-        left: 120px;
+        top: 362vh;
+        left: 140px;
         height: 50px;
         width: 130px;
     }
     .box5 img{
-        object-position: top right;
+        object-position: top;
     }
 }
